@@ -1,0 +1,37 @@
+.advantage {
+  margin-top: 70px;
+  &__item{
+    display: flex;
+    margin-bottom: 30px;
+  }
+  &__title{
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  &__left {
+    padding-right: 35px;
+  }
+  &__right{
+    padding-left: 35px;
+  }
+  &__img{
+    width: 484px;
+  }
+  &__background{
+    background-image:url('../images/border.png');
+    padding: 60px;
+    width: 549px;
+  }
+  &__button {
+    background-color: #195fa6;
+    padding: 45px;
+
+  }
+  &__link{
+    background-color: #f98e3c;
+    padding: 5px 10px;
+    text-align: center;
+  }
+}

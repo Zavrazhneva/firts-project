@@ -1,0 +1,22 @@
+.header{
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 16px;
+    padding: 5px 0;
+    &-coll{
+      font-weight: lighter;
+      color: #f98e3c;
+      font-size: 30px;
+    }
+    &-mail{
+      text-align: right;
+    }
+  }
+  &__logo{
+    width:250px;
+    height: 84px;
+  }
+
+}
