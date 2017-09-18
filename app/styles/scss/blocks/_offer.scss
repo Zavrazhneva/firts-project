@@ -1,0 +1,38 @@
+.offer{
+    text-align: center;
+    margin: 30px 0;
+    &__nav{
+        background: #195fa6;
+        display: flex;
+        justify-content: space-between;
+        padding:20px 15px;
+        color: #ffffff;
+    }
+    &__img{
+        border-top: 3px #f98e3c solid;
+        width: 100%;
+    }
+    &__slid{
+        box-shadow: 0 0 30px rgba(0,0,0,0.5);
+        margin: 20px 30px;
+
+    }
+    &__content{
+        padding: 10px 15px;
+        text-align: left;
+    }
+    &__title{
+        color: #195fa6;
+        margin-bottom: 20px;
+    }
+    &__button{
+        background: none;
+        border: 2px #195fa6 solid;
+        color: #195fa6;
+        padding: 5px 15px;
+
+    }
+    &__slider{
+        margin-bottom: 30px;
+    }
+}

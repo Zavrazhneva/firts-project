@@ -14,7 +14,7 @@
       margin-left: 10px;
     }
     &:last-child:after{
-      content: '';
+      display: none;
     }
   }
   &__list{

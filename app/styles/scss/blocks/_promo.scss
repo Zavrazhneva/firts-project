@@ -1,6 +1,9 @@
 .promo{
   background-image:url('../images/note.jpg');
-  border-bottom: 2px #195fa6 solid;
+    background-size: contain;
+    background-position: 100% 0;
+    border-bottom: 2px #195fa6 solid;
+    background-repeat: no-repeat;
 
   &__info{
     display: flex;

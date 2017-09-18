@@ -1,37 +1,67 @@
 .advantage {
-  margin-top: 70px;
-  &__item{
-    display: flex;
-    margin-bottom: 30px;
-  }
-  &__title{
-    font-size: 30px;
-    font-weight: lighter;
-    text-align: center;
-    margin-bottom: 100px;
-  }
-  &__left {
-    padding-right: 35px;
-  }
-  &__right{
-    padding-left: 35px;
-  }
-  &__img{
-    width: 484px;
-  }
-  &__background{
-    background-image:url('../images/border.png');
-    padding: 60px;
-    width: 549px;
-  }
-  &__button {
-    background-color: #195fa6;
-    padding: 45px;
+    margin-top: 70px;
+    &__item {
+        display: flex;
+        margin-bottom: 120px;
+    }
+    &__title {
+        font-size: 30px;
+        font-weight: lighter;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    &__coll {
+        width: 50%;
+        box-sizing: border-box;
 
-  }
-  &__link{
-    background-color: #f98e3c;
-    padding: 5px 10px;
-    text-align: center;
-  }
+        &--img {
+            padding-right: 6%;
+            position: relative;
+
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 100%;
+                height: 140%;
+                top: -60px;
+                left: -40px;
+                background: url('../images/border.png') no-repeat 0 0;
+                background-size: 100%;
+                z-index: -1;
+            }
+
+            &:nth-child(2) {
+                padding-right: 0;
+                padding-left: 6%;
+
+                &::before {
+                    left: auto;
+                    right: -30px;
+                }
+            }
+        }
+
+    }
+
+
+    &__img {
+        width: 100%;
+    }
+    &__background {
+        background-image: url('../images/border.png');
+        padding: 60px;
+        width: 549px;
+    }
+    &__button {
+        background-color: #195fa6;
+        padding: 45px;
+        text-align: center;
+
+    }
+    &__link {
+        background-color: #f98e3c;
+        padding: 5px 10px;
+        text-align: center;
+    }
 }
