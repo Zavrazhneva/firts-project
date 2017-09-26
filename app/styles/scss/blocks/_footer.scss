@@ -1,0 +1,9 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #202e44;
+  color: #ffffff;
+  &__coll {
+    display: block;
+  }
+}

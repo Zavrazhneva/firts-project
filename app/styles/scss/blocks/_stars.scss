@@ -1,5 +1,9 @@
 .stars{
-    background-image: url('../images/star.png');
-    background-repeat: no-repeat;
-    background-position: 480px 50px;
+    &::after {
+        display: block;
+        content: url('../images/star.png');
+        text-align: center;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
 }

@@ -1,0 +1,16 @@
+.after {
+  background-color: #dddddd;
+
+
+  &__coll {
+    width: 50%;
+    text-align: center;
+  }
+  &__wrapper {
+    background-image: url('../images/book.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding-top: 150px;
+  }
+}
